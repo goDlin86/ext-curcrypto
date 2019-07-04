@@ -1,0 +1,70 @@
+body {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #666;
+    margin: 0;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 100px minmax(250px, max-content);
+    grid-column-gap: 20px;
+}
+#btc {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    align-self: center;
+}
+#eth {
+    grid-column: 1;
+    grid-row: 3 / 5;
+    align-self: center;
+}
+#bitcoin {
+    grid-column: 2;
+    grid-row: 1;
+}
+#bitcoinYday {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 0.6em;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+#ethereum {
+    grid-column: 2;
+    grid-row: 3;
+}
+#ethereumYday {
+    grid-column: 2;
+    grid-row: 4;
+    font-size: 0.6em;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+#btc-eth {
+    grid-column: 1;
+    grid-row: 5 / 7;
+    align-self: center;
+    font-size: 0.5em;
+}
+#btceth {
+    grid-column: 2;
+    grid-row: 5;
+}
+#btcethYday {
+    grid-column: 2;
+    grid-row: 6;
+    font-size: 0.6em;
+    color: #aaa;
+}
+
+
+span {
+    font-size: 0.8em;
+    padding-left: 10px;
+}
+.plus {
+    color: #00CC99;
+}
+.minus {
+    color: #F24236;
+}

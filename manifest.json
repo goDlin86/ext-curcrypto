@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+  
+    "name": "curCrypto",
+    "description": "Show current bitcoin and ethereum price",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_title": "Show price",
+        "default_popup": "popup.html"
+    }
+}
